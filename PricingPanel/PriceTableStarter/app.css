@@ -1,0 +1,66 @@
+html {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+    background-color: #FFF0F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+   padding: 25px 15px;
+   width: 1200px;
+   max-width: 15000px;
+   display: flex;
+   text-align: center;
+   text-transform: uppercase;
+
+}
+
+.pricing-plan {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    font-style: italic;
+}
+
+.pricing-img {
+    margin: 0.5px; 
+    margin-bottom: 25px;
+}
+
+.pricing-header {
+    color: #888;
+    font-weight: 500px;
+}
+
+.pricing-features {
+    font-size: 25px;
+    color:black;
+    font-family: serif;
+    font-weight: bold;
+    letter-spacing: 0em;
+}
+
+.pricing-price {
+
+    color: #016ff9;
+    display: block;
+    font-size: 25px;
+}
+
+.pricing-button {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: black;
+}
